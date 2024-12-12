@@ -1,0 +1,269 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Caslon+Display&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+
+p {
+    font-family: "crimson text";
+}
+
+a {
+    font-family: "Mate";
+    text-transform: uppercase;
+
+}
+
+h2 {
+    font-family: "Mate";
+    text-transform: uppercase;
+}
+
+
+/* algemeen */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#ons h1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+#podcast h1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+
+.huidig {
+    font-weight: 1000;
+    text-decoration: overline;
+}
+
+
+
+
+
+main {
+    position: relative;
+    top: -20em;
+}
+
+/* fotos  */
+
+header img {
+    width: 9em;
+    height: 7em;
+    padding: 2em;
+}
+
+#podcast img {
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+}
+
+article img {
+    width: 15em;
+    height: 15em;
+}
+
+
+#overons img {
+    width: 15em;
+    height: 12em;
+    margin: 2em;
+}
+
+.playbutton {
+    width: 8em;
+    height: 8em;
+}
+
+.wij  img {
+    width: 15em;
+    height: 20em;
+    margin: 2em;
+}
+
+
+
+/* header */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 8em;
+    padding-bottom: 23em;
+
+}
+
+
+nav li {
+    justify-content: end;
+    padding: 3em;
+
+}
+
+header {
+    display: flex;
+    background-color: #F19B95;
+    font-size: x-large;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header li:hover {
+    font-weight: 1000;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/* footer  */
+
+footer {
+    background-color: #F2D5DA;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+
+}
+
+footer div {
+    padding: 4em;
+    padding-left: 8em;
+    padding-right: 8em;
+    justify-content: center;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+/* afleveringen */
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em
+}
+
+#headerlicht {
+    background-color: #F2D5DA;
+}
+
+#afleveringen article {
+    padding: 1em;
+    margin: 2em;
+    background-color: #FFB8B3;
+    border-radius: 2em;
+    display: flex;
+}
+
+#afleveringen article div h2 {
+    font-family: "crimson text";
+    text-transform: none;
+}
+
+#afleveringen article div {
+    padding: 3em;
+    display: block;
+}
+
+.aflevering {
+    color: #C35252;
+}
+
+button{
+    background: 0%;
+    border: none; 
+    font-weight: 900
+}
+
+/* over ons */
+
+#headerkleurgroen {
+    background-color: #C6DB9E;
+}
+
+#overons {
+    display: flex;
+    border: solid #85936A 7px;
+    margin: 6em;
+    background-color: #C6DB9E;
+    align-items: center;
+    position: relative;
+    top: -13em;
+}
+
+#overons section {
+    margin: 2em;
+    font-size: x-large;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+}
+
+main div section {
+    margin: 3em;
+    font-size: x-large;
+}
+
+#wiezijnwij {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.wij {
+    border: solid #C6DB9E 0.8em;
+    margin: 2em;
+    border-radius: 2em;
+}
+
+/* homepagina  */
+
+#podcast div {
+    display: flex;
+    padding: 1em;
+    border: solid #EA6363 1em;
+    margin: 2em;
+    margin-left: 9em;
+    margin-right: 9em;
+    align-items: center;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+}
+
+#podcast section {
+    margin: 2em;
+
+}
+
+#podcast iframe {
+    margin: auto;
+    height: 20em;
+}
+
